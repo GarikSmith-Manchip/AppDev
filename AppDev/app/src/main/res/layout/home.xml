@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:text="Edit Person"
         android:id="@+id/editPersonButton"
-        android:onClick="editPersonNav
+        android:onClick="editPersonNav"
         android:width="100dp"
         android:height="30dp"
         android:layout_below="@+id/textView2"
-        android:layout_toStartOf="@+id/textView2" />
+        android:layout_toLeftOf="@+id/textView2" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:text="Button"
         android:id="@+id/button2"
         android:layout_alignBottom="@+id/editPersonButton"
-        android:layout_toEndOf="@+id/editPersonButton"
+        android:layout_toRightOf="@+id/editPersonButton"
         android:width="100dp"
         android:height="30dp" />
 
@@ -35,7 +35,7 @@
         android:text="Button"
         android:id="@+id/button3"
         android:layout_alignBottom="@+id/button2"
-        android:layout_toEndOf="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
         android:layout_alignTop="@+id/button2"
         android:height="30dp"
         android:width="100dp" />
