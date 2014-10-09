@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.ImageView;
 
 public class home extends Activity {
 
@@ -15,6 +15,9 @@ public class home extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+        ImageView image = (ImageView) findViewById(R.id.imageView2);
+        image.setImageResource(R.drawable.images);
 
         Button editPerson = (Button) findViewById(R.id.editPersonButton);
 
