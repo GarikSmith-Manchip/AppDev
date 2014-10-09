@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         android:id="@+id/button2"
-        android:layout_alignBottom="@+id/button"
-        android:layout_toEndOf="@+id/button"
+        android:layout_alignBottom="@+id/editPersonButton"
+        android:layout_toEndOf="@+id/editPersonButton"
         android:width="100dp"
         android:height="30dp" />
 
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/editPersonButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:maxHeight="250dp"
